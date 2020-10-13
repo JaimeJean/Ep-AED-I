@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ep_1_aed_1;
+package ep1;
 
 public class Node {
     

@@ -1,5 +1,5 @@
 
-package ep_1_aed_1;
+package ep1;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -45,11 +45,7 @@ public class Ep{
                 metodoEscolhido = escolha();
 
                 tipoEscolhido = criacaoObjeto(metodoEscolhido);
-                
-               
-                
-                
-                
+                        
                 while (entrada != null){
                     
 
@@ -104,7 +100,7 @@ public class Ep{
        
     static String arquivoNome(){
         Scanner in = new Scanner(System.in);
-        System.out.printf("Digite o nome do arquivo: ");
+        System.out.printf("Digite o nome do arquivo e em seguida aperte enter: ");
     
         String nomeDoArquivo = in.nextLine();
         return nomeDoArquivo;
@@ -114,7 +110,7 @@ public class Ep{
     
      static String escolha(){
         Scanner in = new Scanner(System.in);
-        System.out.printf("Digite a letra correspondente ao método escolhido para realização do processamento: \n"
+        System.out.printf("Digite a letra correspondente ao método escolhido para realização do processamento e pressione enter: \n"
         + "Pilha Ingenua = A\n" + "Pilha Arranjo = B\n" + "Lista Ligada = C\n");
         
         String escolhido = in.nextLine();

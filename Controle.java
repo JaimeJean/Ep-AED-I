@@ -1,5 +1,5 @@
 
-package ep_1_aed_1;
+package ep1;
 
 public interface Controle {
     void add(int newElement);
